@@ -1,6 +1,0 @@
-Clientes api Rest backend Spring Boot:
-bd name : springdb
-bd host : 34.155.23.198
-bd user : root
-bd password 123456
-bd url : jdbc:mysql://34.155.23.198:3306/springdb
