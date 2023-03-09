@@ -24,6 +24,7 @@ public class ClienteRestController {
     @Autowired
     private IClienteService clienteService;
 
+    @CrossOrigin(origins = "https://client-angular-frontend-app.web.app")
     @GetMapping("/clientes")
     public List<Cliente> index(){
         return clienteService.findAll();
