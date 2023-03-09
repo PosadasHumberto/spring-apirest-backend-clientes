@@ -1,6 +1,16 @@
 Clientes api Rest backend Spring Boot:
-bd name : springdb
-bd host : 34.155.23.198
-bd user : root
-bd password 123456
-bd url : jdbc:mysql://34.155.23.198:3306/springdb
+
+/*intentando desplegar en cloud google*/
+bd name : 	springdb
+bd host : 	34.155.23.198
+bd user : 	root
+bd password : 	123456
+bd url : 	jdbc:mysql://34.155.23.198:3306/springdb
+
+/*Intentando desplegar en Heroku*/
+con jaws mysql
+Host :		n2o93bb1bwmn0zle.chr7pe7iynqr.eu-west-1.rds.amazonaws.com	
+Username :	t5h9eg53checssqs	
+Password :	r05a5xpvjxt0kq5b	
+Port :		3306	
+Database :	ydkuo4vd4025ywvr

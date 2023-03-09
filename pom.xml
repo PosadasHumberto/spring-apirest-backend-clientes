@@ -11,6 +11,7 @@
 	<groupId>com.humbertoempresa.springboot.backend.apirest</groupId>
 	<artifactId>spring-boot-backend-apirest</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+	<packaging>jar</packaging>
 	<name>spring-boot-backend-apirest</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
