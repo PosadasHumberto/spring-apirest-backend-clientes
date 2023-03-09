@@ -30,6 +30,7 @@ public class ClienteRestController {
         return clienteService.findAll();
     }
 
+    @CrossOrigin(origins = "https://client-angular-frontend-app.web.app")
     @GetMapping("/clientes/{id}")
     public ResponseEntity<?> show(@PathVariable Long id){
 
@@ -51,6 +52,7 @@ public class ClienteRestController {
         return new ResponseEntity<Cliente>(cliente, HttpStatus.OK);
     }
 
+    @CrossOrigin(origins = "https://client-angular-frontend-app.web.app")
     @PostMapping("/clientes")
     public ResponseEntity<?> create(@Valid @RequestBody Cliente cliente, BindingResult result){
 
@@ -82,6 +84,7 @@ public class ClienteRestController {
         return new ResponseEntity<Map<String, Object>>(response, HttpStatus.CREATED);
     }
 
+    @CrossOrigin(origins = "https://client-angular-frontend-app.web.app")
     @PutMapping("/clientes/{id}")
     public ResponseEntity<?> update(@Valid @RequestBody Cliente cliente, BindingResult result, @PathVariable Long id){
 
@@ -124,6 +127,7 @@ public class ClienteRestController {
         return new ResponseEntity<Map<String, Object>>(response, HttpStatus.CREATED);
     }
 
+    @CrossOrigin(origins = "https://client-angular-frontend-app.web.app")
     @DeleteMapping("/clientes/{id}")
     public ResponseEntity<?> delete(@PathVariable Long id){
 
